@@ -29,8 +29,8 @@ GEM
     http_parser.rb (0.6.0)
     multi_json (1.8.4)
     multipart-post (1.2.0)
-    rack (1.5.2)
-    rsa (0.1.4)
+    openssl (2.2.0)
+    rack (2.2.3)
     thin (1.6.1)
       daemons (>= 1.0.9)
       eventmachine (>= 1.0.0)
@@ -43,5 +43,5 @@ PLATFORMS
 DEPENDENCIES
   faraday
   faye
-  rsa
+  openssl
   thin
