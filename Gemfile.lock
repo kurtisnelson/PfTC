@@ -12,7 +12,7 @@ GEM
       http_parser.rb (>= 0.6.0)
     em-socksify (0.3.0)
       eventmachine (>= 1.0.0.beta.4)
-    eventmachine (1.0.3)
+    eventmachine (1.2.7)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
     faye (1.0.1)
@@ -23,19 +23,21 @@ GEM
       multi_json (>= 1.0.0)
       rack (>= 1.0.0)
       websocket-driver (>= 0.3.0)
-    faye-websocket (0.7.2)
+    faye-websocket (0.11.0)
       eventmachine (>= 0.12.0)
-      websocket-driver (>= 0.3.1)
+      websocket-driver (>= 0.5.1)
     http_parser.rb (0.6.0)
     multi_json (1.8.4)
     multipart-post (1.2.0)
+    openssl (2.2.0)
     rack (1.5.2)
-    rsa (0.1.4)
     thin (1.6.1)
       daemons (>= 1.0.9)
       eventmachine (>= 1.0.0)
       rack (>= 1.0.0)
-    websocket-driver (0.3.2)
+    websocket-driver (0.7.3)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
 
 PLATFORMS
   ruby
@@ -43,5 +45,5 @@ PLATFORMS
 DEPENDENCIES
   faraday
   faye
-  rsa
+  openssl
   thin
